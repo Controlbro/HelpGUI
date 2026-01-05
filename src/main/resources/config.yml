@@ -1,0 +1,36 @@
+gui:
+  title: "&cHelp GUI"
+  rows: 3
+  items:
+    lands:
+      slot: 13
+      material: "BOOK"
+      amount: 1
+      name: "&dLANDS"
+      lore:
+        - "&5protect area with lands"
+        - "&7/lands create - create land"
+        - "&7/land claim - claim chunk"
+        - "&7/land menu - GUI LAND"
+        - "&7/land info - info about land"
+        - "&7/land trust - add member to land"
+      command: "lands"
+      close: false
+    spawn:
+      slot: 11
+      material: "COMPASS"
+      amount: 1
+      name: "&aSpawn"
+      lore:
+        - "&7Return to spawn."
+      command: "spawn"
+      close: true
+    rules:
+      slot: 15
+      material: "PAPER"
+      amount: 1
+      name: "&eRules"
+      lore:
+        - "&7Read the server rules."
+      command: "rules"
+      close: false

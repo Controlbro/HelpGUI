@@ -1,0 +1,21 @@
+name: HelpGUI
+main: com.helpgui.HelpGuiPlugin
+version: 1.0.1
+api-version: '1.21'
+author: Controlbro
+commands:
+  help:
+    description: Open the Help GUI.
+    usage: /help
+    permission: helpgui.use
+  helpgui:
+    description: Reload the Help GUI configuration.
+    usage: /helpgui reload
+    permission: helpgui.reload
+permissions:
+  helpgui.use:
+    description: Allows opening the Help GUI.
+    default: true
+  helpgui.reload:
+    description: Allows reloading the Help GUI configuration.
+    default: op
